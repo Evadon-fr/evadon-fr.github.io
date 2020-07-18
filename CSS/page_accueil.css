@@ -125,7 +125,6 @@ option {
  	width: 100%;
 }
 .inner-page{
-  background-color: lightgreen;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
