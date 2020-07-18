@@ -1,0 +1,196 @@
+/*--- Normes ---*/
+*{padding: 0; margin: 0; box-sizing: border-box;}
+a{text-decoration: none;}
+
+
+/*----********** GENERAL **********----*/
+body{
+  font-family: 'Hevetica', sans-serif;
+}
+
+.inner-nav{
+  width: 90%;
+  margin: auto;
+}
+/*----********** FIN GENERAL **********----*/
+
+
+/*
+=========================================
+=========================================
+================ HEADER =================
+=========================================
+=========================================
+*/
+.header{
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+.menu{
+  background-color: #ECEFF1;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+
+/*----Menu-L-----*/
+.menu-l{
+  float: left;
+}
+
+#logo-nav{
+  height: 46px;
+  margin: 6px 0;
+}
+
+
+/*----Menu-R-----*/
+.menu-r{
+  float: right;
+}
+
+.menu-r a{
+  color: #608ec9;
+  margin: 0 10px;
+}
+.menu-r a:hover{
+  transition: all 0.2s ease-in-out;
+  color: #E1BEE7;
+}
+
+/*----Menu-H-----*/
+.botton-menu-h{
+  position: relative;
+  width: 30px;
+  height: 60px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  cursor: pointer;
+}
+.menu-h{
+  width: 30px;
+  height: 3px;
+  background-color: #608ec9;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.menu-h:before, .menu-h:after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #608ec9;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.menu-h:before{transform: translateY(-9px);} 
+.menu-h:after{transform: translateY(9px);}
+
+/*--------------------------
+-----NAV-AIMATION-JS-----
+-----------------------*/
+.menu-h.menu-open{background-color: transparent;}
+.menu-h.menu-open:before{
+  transform: translateY(-1px);
+  transform-origin: center;
+  transform: rotate(45deg); 
+}
+.menu-h.menu-open:after{
+  transform: translateY(1px);
+  transform-origin: center;
+  transform: rotate(-45deg);
+}
+.menu-r.menu-open {
+    transition: all 0.2s ease-in-out;
+    transform: translateX(0);
+}
+/*--------------------------
+---------------------------
+-----------------------*/
+/*
+=========================================
+=========================================
+============== FIN HEADER ===============
+=========================================
+=========================================
+*/
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #282828;
+  bottom: 0;
+  padding: 15px 15px 10px 15px; 
+}
+
+.footer-texte{
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  color: #6f6f6f;
+  font-size: 10pt;
+}
+/*
+=========================================
+=========================================
+================ FOOTER =================
+=========================================
+=========================================
+*/
+
+
+
+/*
+=========================================
+=========================================
+============== FIN FOOTER ===============
+=========================================
+=========================================
+*/
+
+
+/*------------------
+---NAV-RESPONSIF---
+----------------*/
+
+@media only screen and (max-width: 840px){
+ /*----Menu-H-----*/
+ .botton-menu-h{display: flex;} 
+
+
+ /*----Menu-R---v2-----*/
+ .menu-r{
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    width: 200px;
+    height: 100%;
+    background-color: #608ec9;
+    padding-top: 20px;
+    transform: translateX(100%);
+  }
+  
+  .menu-r a{
+    height: 50px;
+    color: #fff;
+    display: block;
+    text-align: right;
+    padding: 0 30px 0 0; margin: 0;
+  }  
+  
+}
+
+@media only screen and (max-width: 839.5px){
+ .menu-r{
+  transition: all 0.1s ease-in-out;
+ }
+}
+
+
+
