@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Evadon</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/page_accueil.css">
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="./IMG/Evadon.png" />
+    
+  </head>
+
+  <body>
+    <!-- ********** HEADER ********** -->
+    <header class="header">
+      <nav class="menu">
+        <div class="inner-nav">
+          
+          <!-- menu-L -->
+          <div class="menu-l">
+            <a href="#"><img id="logo-nav" src="./IMG/Evadon.png" alt="Logo"/></a>
+          </div>
+          
+          <!-- menu-R -->
+          <div class="menu-r">
+            <a href="#">Comcept</a>
+            <a href="#">Info Pratique</a>
+            <a href="#">Contact</a>
+            <a href="#">Mon Espace</a>
+          </div>
+
+           <!-- menu-H -->
+         <div class="botton-menu-h">
+           <div class="menu-h"></div>
+         </div>
+
+        </div>
+      </nav>
+    </header>
+    <!-- ********** FIN HEADER ********** -->
+    
+
+
+    <!-- ********** MENU RECHERCHE ********** -->
+    <section class="section-menu-recherche">
+      <div class="inner-menu-recherche">
+        <div class="menu-recherche">
+          
+          <h1 class="menu-recherche-titre">Trouvez le voyage de vos rêves !</h1>
+                    
+          <!-- ********** SPACE RECHERCHE ********** -->
+          <form class="space-recerche">
+            <!-- Botton destinations -->
+            <div class="botton-content">
+              <p class="menu-recherche-texte">Je voyage</p>
+              <div class="botton">
+                <span class="span-texte">Destination</span>
+                <img class="picto-deroulant" src="./IMG/picto-deroulant.png">
+                <select class="deroulant">
+                  <option class="option-def" value="" selected disabled>Destination</option>
+                  <option value="Irlande">&nbsp;Irlande</option>
+                  <option value="Islande">&nbsp;Islande</option>
+                  <option value="Panama">&nbsp;Panama</option>
+                  <option value="Madagascar">&nbsp;Madagascar</option>
+                  <option value="Australie">&nbsp;Australie</option>
+                  <option value="Japon">&nbsp;Japon</option>
+                  <option value="Géorgie">&nbsp;Géorgie</option>
+                  <option value="Ambrym">&nbsp;Ambrym</option>
+                  <option value="Thaïlande">&nbsp;Thaïlande</option>
+                  <option value="Iran">&nbsp;Iran</option>
+                  <option value="Australie">&nbsp;Australie</option>
+                  <option value="Chine">&nbsp;Chine</option>
+                </select>
+              </div>
+            </div>
+            <!-- Botton dates -->
+            <div class="botton-content">
+              <p class="menu-recherche-texte">en</p>
+              <div class="botton">
+                <span class="span-texte">Date de départ</span>
+                <img class="picto-deroulant" src="./IMG/picto-deroulant.png">
+                <select class="deroulant">
+                  <option class="option-def" value="" selected disabled>Date de départ</option>
+                  <option value="2020-08-01">&nbsp;Août 2020</option>
+                  <option value="2020-09-01">&nbsp;Septembre 2020</option>
+                  <option value="2020-10-01">&nbsp;Octobre 2020</option>
+                  <option value="2020-11-01">&nbsp;Novembre 2020</option>
+                  <option value="2020-12-01">&nbsp;Décembre 2020</option>
+                </select>
+              </div>
+            </div>
+            <!-- Botton recherche -->
+            <button class="botton-recherche">Trouvez votre voyage</button>
+          </form>
+
+        </div>
+      </div>  
+    </section>
+    <!-- ********** FIN MENU RECHERCHE ********** -->
+
+
+    <!-- ========== SECTION VOYAGES ========== -->
+    <section class="section-voyages">
+        <div class="inner-page">
+          
+          <!-- ********** SPACE ARTICLE ********** -->
+          <div class="space-article">
+
+            <h2 class="section-titre">
+              Nos plus beaux voyages
+            </h2>
+            
+            <!-- Article flexbox -->
+            <div class="article-box">
+              <!-- ======= Article 1 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Thrones.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Irlande</p>
+                      <a href="#" class="article-titre">Sur les traces de la série Game of Thrones</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 7 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">600 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 1 ======= -->
+              <!-- ======= Article 2 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Quetzal.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Panama</p>
+                      <a href="#" class="article-titre">Le domaine du Quetzal</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 6 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">780 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 2 ======= -->
+              <!-- ======= Article 3 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Aurores.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Islande</p>
+                      <a href="#" class="article-titre">Observer les aurores boréales</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 5 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">850 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 3 ======= -->
+              <!-- ======= Article 4 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Madagascar.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Madagascar</p>
+                      <a href="#" class="article-titre">Au coeur des peuples</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 10 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">1280 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 4 ======= -->
+              <!-- ======= Article 5 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Cowboys.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Australie</p>
+                      <a href="#" class="article-titre">Chez les cowboys de l'Outback</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 7 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">1680 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 5 ======= -->
+              <!-- ======= Article 6 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Japon.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Japon</p>
+                      <a href="#" class="article-titre">Randonnées historiques dans les Alpes</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 15 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">2800 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 6 ======= -->
+              <!-- ======= Article 7 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Cheval.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Géorgie</p>
+                      <a href="#" class="article-titre">Randonnée à cheval</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 5 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">1060 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 7 ======= -->
+              <!-- ======= Article 8 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Volcan.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Ambrym</p>
+                      <a href="#" class="article-titre">Trek volcanique et tradition à Ambrym</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 6 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">860 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 8 ======= -->
+              <!-- ======= Article 9 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Thaïlande.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Thaïlande</p>
+                      <a href="#" class="article-titre">Refuge des éléphants</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 12 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">2170 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 9 ======= -->
+              <!-- ======= Article 10 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Iran.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Iran</p>
+                      <a href="#" class="article-titre">Mille et une nuits</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 15 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">3190 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 10 ======= -->
+              <!-- ======= Article 11 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Train.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Australie</p>
+                      <a href="#" class="article-titre">L'indian pacific</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 15 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">5850 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 11 ======= -->
+              <!-- ======= Article 12 ======= -->
+              <article class="article">
+                <div class="article-inner">
+                  <div class="article-content">
+                    <!-- IMG -->
+                    <div class="article-box-img">
+                      <div class="article-img" style="background-image: url('./IMG/Voyages/Yuyuan.png');"></div>
+                    </div>
+                    <!-- Fin IMG -->
+                    <!-- TEXTE -->
+                    <div class="article-text">
+                      <img class="picto-local" src="./IMG/local.png">
+                      <p class="article-local">Chine</p>
+                      <a href="#" class="article-titre">La quête de Yuyuan</a>
+                      <div class="article-box-info">
+                        <p class="article-info">Env. 10 jours |</p>
+                        <p class="article-info">à partir de </p>
+                        <b class="article-prix">3490 €</b>
+                      </div>
+                    </div>
+                    <!-- Fin TEXTE -->
+                  </div>
+                </div>
+              </article>
+              <!-- ======= FIN Article 12 ======= -->
+              
+            </div>
+            <!-- Fin Article flexbox --> 
+
+          </div>    
+          <!-- ********** FIN SEPACE ARTICLE ********** -->
+          
+
+
+
+          <!-- ********** SEPACE PUB ********** -->
+          <div class="space-pub">
+            <!-- Pub flexbox -->
+            <div class="pub-box">
+              <!-- Pub -->
+              <div class="pub-1"></div>
+              <div class="pub-2"></div>
+            </div>
+          </div>
+          <!-- ********** FIN SEPACE PUB ********** -->
+
+        </div>
+    </section>
+    <!-- ========== FIN SECTION VOYAGES ========== -->
+    
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <p class="footer-texte">© Evadon</p>
+    </footer>
+    <!-- ========== fFIN FOOTER ========== -->
+
+    <!-- script -->
+    <script src="JS/general.js"></script>
+  </body>
+</html>
