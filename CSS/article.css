@@ -1,0 +1,218 @@
+.section-article{
+ 	width: 100%;
+}
+.inner-page{ 
+ 	width: 1160px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+.image-article{
+  width: 100%;
+  padding-bottom: 36%;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.image-article.article-1{
+	background-image: url(../IMG/Voyages/Thrones.png); 
+}
+.image-article.article-2{
+	background-image: url(../IMG/Voyages/Quetzal.png);
+	background-position: center center;
+}
+.image-article.article-3{
+	background-image: url(../IMG/Voyages/Aurores.png);
+	background-position: center center; 
+}
+.section-article-zone-texte{
+	padding: 30px 15px;
+}
+.section-article-zone-texte-contenaire{
+	padding: 15px 30px;
+	border-left: 1px solid #888;
+}
+.section-article-h1{
+	font-size: 28pt;
+}
+.section-article-h2{
+	font-size: 24pt;
+	padding: 10px 0;
+}
+
+.section-article-ref{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5px 15px;
+}
+.ref{
+	padding: 5px 4px;
+	line-height: 20pt;
+}
+.ref.type-1{
+	font-size: 12pt;
+}
+.ref.type-2{
+	font-size: 16pt;
+	font-weight: bold;
+	color: #555;
+}
+.ref.type-3{
+	font-size: 18pt;
+	font-weight: bold;
+	color: #608ec9;
+}
+.section-article-texte{
+	font-size: 14pt;
+	padding: 15px 0;
+	max-width: 800px;
+}
+.botton-reserve{
+	color: #fff;
+  background-color: #608ec9;
+  text-transform: none;
+	font-size: 16px;
+  padding: 14px 60px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  margin: 30px 0;
+}
+
+
+/**********************************
+********** RESPONSIF - 1 - **********
+**********************************/
+@media only screen and (max-width: 1260px){
+	/*----********** GENERAL **********----*/
+	.inner-page{
+	 	width: 960px;
+	  padding: 15px 0px; 
+	}
+		
+	/*----********** FIN GENERAL **********----*/
+}
+/**********************************
+**********************************/
+
+
+
+
+/**********************************
+********** RESPONSIF - 2 - **********
+**********************************/
+@media only screen and (max-width: 998px){
+		/*----********** GENERAL **********----*/
+	.inner-page{
+	 	width: 870px;
+	}
+	/*----********** FIN GENERAL **********----*/
+}
+/**********************************
+**********************************/
+
+
+
+
+/**********************************
+********** RESPONSIF - 3 - **********
+**********************************/
+@media only screen and (max-width: 890px){
+	/*----********** GENERAL **********----*/
+	.inner-page{
+	 	width: 700px;
+	}
+	/*----********** FIN GENERAL **********----*/
+}
+/**********************************
+**********************************/
+
+
+
+
+
+/**********************************
+********** RESPONSIF - 4 - **********
+**********************************/
+@media only screen and (max-width: 720px){
+	/*----********** GENERAL **********----*/
+	.inner-page{
+	 	width: 560px;
+	}
+	/*----********** FIN GENERAL **********----*/
+}
+/**********************************
+**********************************/
+
+
+
+
+/**********************************
+********** RESPONSIF - 5 - **********
+**********************************/
+@media only screen and (max-width: 580px){
+	/*----********** GENERAL **********----*/
+	.inner-page{
+	 	width: 100%;
+	}
+	.image-article{
+	  padding-bottom: 66%;
+	  transition: all 0.5s ease-in-out;
+	}
+	/*----********** FIN GENERAL **********----*/
+}
+/**********************************
+**********************************/
+
+
+
+/**********************************
+********** RESPONSIF - 6 - **********
+**********************************/
+@media only screen and (max-width: 480px){
+	/*----********** GENERAL **********----*/
+	
+	.image-article{
+	  padding-bottom: 86%;
+	  transition: all 0.5s ease-in-out;
+	}
+	
+/**/
+	.section-article-h1{
+		font-size: 22pt;
+	}
+	.section-article-h2{
+		font-size: 18pt;
+		padding: 10px 0;
+	}
+
+	.botton-reserve{
+	  padding: 14px 50px;
+	}
+	/*----********** FIN GENERAL **********----*/
+}
+/**********************************
+**********************************/
+
+
+
+
+/*==========AUTRES============*/
+@media only screen and (min-height: 1024px) {
+@media only screen and (min-width:580px) {
+	/*----********** GENERAL **********----*/
+	.footer{
+		bottom: 0;
+		position: absolute;
+	}
+
+	/*----********** FIN GENERAL **********----*/
+}
+}
